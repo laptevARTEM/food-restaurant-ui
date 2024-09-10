@@ -1,0 +1,137 @@
+html {
+    font-family: Helvetica, serif;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.header-wrapper {
+    min-height: 136px;
+}
+
+.header-logo-container {
+    margin-top: 32px;
+}
+
+.header-nav-container {
+    height: 136px;
+    width: 100%;
+    margin-left: 26px;
+}
+
+.header-top-container {
+    height: calc(100% / 2);
+    border-bottom: #36393E 2px solid;
+    justify-content: flex-end;
+    /*padding-right: 60px;*/
+}
+
+.header-socials {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header-socials *:not(:last-child) {
+    margin-right: 16px;
+}
+
+.header-top-container {
+    font-size: 20px;
+    color: #73777D;
+    text-transform: uppercase;
+}
+
+.header-top-container .nav-menu {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header-top-container .header-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-top-container .nav-menu .nav-menu-item {
+    list-style-type: none;
+    margin-right: 60px;
+}
+
+.header-top-container .book-btn-container {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 60px;
+    font-weight: bold;
+    color: #FF9100;
+}
+
+.header-top-container .auth-block {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 60px;
+}
+
+.header-bottom-container {
+    height: calc(100% / 2);
+    justify-content: flex-end;
+    /*padding-right: 60px;*/
+}
+
+.header-search-block {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header-search-input {
+    color: white;
+    height: 24px;
+    background: #1F2125;
+    border: none;
+    border-bottom: 1px solid #36393E;
+    margin-right: 8px;
+}
+
+.header-search-input:focus {
+    background: #1F2125;
+    border: none;
+    border-bottom: 1px solid #36393E;
+    outline: none !important;
+}
+
+.header-search-icon {
+    margin-right: 26px;
+}
+
+.header-cart-block {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 26px;
+}
+
+.header-cart-title {
+    font-weight: bold;
+    margin-right: 11px;
+    color: #73777D;
+}
+
+.header-actions-block {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 60px;
+}
+
+.header-actions-block .fire-icon {
+    margin-right: 14px;
+}
+
+.header-actions-block .actions-button {
+    height: 40px;
+    width: 115px;
+    border-radius: 50px;
+    background: #FF9100;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
